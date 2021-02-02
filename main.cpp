@@ -4,7 +4,8 @@
 
 int main(int argc, char ** argv)
 {
-    for(int i = 1; i < argc; i++) {
+    printf("Change: Skips the firts arg. \n");
+    for(int i = 2; i < argc; i++) {
         printf("arg %d: %s\n", i, argv[i]);
     }
     return 0;
